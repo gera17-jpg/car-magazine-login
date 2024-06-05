@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Car Magazine Register</title>
+    <link href="style.css" rel="stylesheet" >
+  </head>
+  <body>
+    <h1>Car Magazine Register</h1>
+    <form class="" action="index.html" method="post">
+      <label for="name">Fistname & Lastname</label>
+      <input id="name"type="text" name="" value="William Shakespare"><br>
+      <label for="email">Email</label>
+      <input id="email" type="email" name="" value="">
+      <select class="" name="email">
+        <option value="gmail">@gmail.com</option>
+        <option value="yahoo">@yahoo.com</option>
+      </select><br>
+      <label for="password">Password</label>
+      <input id="password" type="password" name="" value="" required pattern="[A-Za-z0-9]{8,16}" title="Alpha numeric with 8-16 characters long">
+      <br>
+      <label for="m">Male</label>
+      <input id="m" type="radio" name="gender" value="">
+      <label for="fr">Female</label>
+      <input id="f" type="radio" name="gender" value="">
+      <label for="etc">Others</label>
+      <input id="etc" type="radio" name="gender" value=""><br>
+      <label for="bday">Birthday</label>
+      <input id="bday" type="date" name="" value=""><br>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
